@@ -10,7 +10,26 @@ html {
   background-size: cover;
 }
 
+header {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+}
+
 h1 {
   font-size: 3rem;
   color: #fffffe;
+}
+
+p, label {
+  color: #fffffe;
+}
+
+.survey-form-bg {
+  background: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  width: 80%;
+  border: 1px solid black;
+  padding: 10px;
 }
