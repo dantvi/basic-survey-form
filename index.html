@@ -13,17 +13,20 @@
     
     <!-- Form element -->
     <form id="survey-form">
-      <label for="name" id="name-label">Name</label><br>
-      <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
-      <label for="email" id="email-label">Email</label><br>
-      <input type="email" id="email" name="email" placeholder="Enter your Email" required><br>
-      <label for="number" id="number-label">Age (optional)</label><br>
-      <input type="number" id="number" name="number" placeholder="Age" min="10" max="99"><br>
+      <div class="input-fields">
+        <label for="name" id="name-label">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+        <label for="email" id="email-label">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" required><br>
+        <label for="number" id="number-label">Age (optional)</label><br>
+        <input type="number" id="number" name="number" placeholder="Age" min="10" max="99"><br>
+      </div>
 
       <!-- Dropdown element -->
       <div class="dropdown">
         <label>Which option best describes your current role?</label><br>
-        <select id="dropdown" name="dropdown">                                      <!-- FÖRSÖK LÄGGA IN EN PLACEHOLDER ELLER LIKNANDE -->
+        <select id="dropdown" name="dropdown">
+          <option value="" selected disabled>Select current role</option>
           <option value="student">Student</option>
           <option value="full-time-job">Full Time Job</option>
           <option value="full-time-learner">Full Time Learner</option>
@@ -52,7 +55,8 @@
       <!-- Dropdown element -->
       <div class="dropdown">
         <label>What is your favorite feature of freeCodeCamp?</label><br>
-        <select id="dropdown-second" name="dropdown">                                      <!-- FÖRSÖK LÄGGA IN EN PLACEHOLDER ELLER LIKNANDE -->
+        <select id="dropdown-second" name="dropdown">
+          <option value="" selected disabled>Select an option</option>
           <option value="challenges">Challenges</option>
           <option value="projects">Projects</option>
           <option value="community">Community</option>
@@ -107,12 +111,6 @@
       <div class="button">
         <input type="submit" id="submit" value="submit">
       </div>
-      
-
-
-
-      
-
     </form>
   </body>
 </html>
