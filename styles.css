@@ -1,0 +1,42 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 10px;
+  font-size: 3rem;
+  color: #fffffe;
+}
+
+p, label {
+  color: #fffffe;
+}
+
+input {
+  border-radius: 3px;
+  border-style: none;
+}
+
+.survey-form-bg {
+  background: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 2%;
+  width: 80%;
+  padding: 30px;
+  border-radius: 10px;
+}
